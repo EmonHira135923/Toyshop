@@ -83,8 +83,8 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
           <Header />
-          {children}
-          <Footer/>
+          <main className="flex-1 pt-20">{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
