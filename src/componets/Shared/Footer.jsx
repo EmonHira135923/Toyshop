@@ -2,24 +2,24 @@
 
 import React from "react";
 import Link from "next/link";
-import {
-  FiFacebook,
-  FiTwitter,
-  FiInstagram,
-  FiHeart,
-} from "react-icons/fi";
+import { FiFacebook, FiTwitter, FiInstagram, FiHeart } from "react-icons/fi";
 import useTheme from "../utils/hooks/useTheme";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const { theme } = useTheme();
   const isLight = theme === "light";
+  const pathName = usePathname();
+
+  if (pathName.startsWith("/dashboard")) return null;
+  if (pathName.startsWith("/auth")) return null;
 
   // লিঙ্ক গ্রিডের ডাটা স্ট্রাকচার (সহজেই মডিফাই করতে পারবেন)
   const footerLinks = [
     {
       title: "Shop",
       links: [
-        {name:"Latest Products",href:"/products?filter=latestProduct"},
+        { name: "Latest Products", href: "/products?filter=latestProduct" },
         { name: "All Products", href: "/products" },
         { name: "Toys", href: "/products?category=plush" },
         { name: "New Arrivals", href: "/products?filter=new" },
