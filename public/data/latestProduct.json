@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Mickey Mouse Teddy",
+    "image": "/image/mickey-teady.webp",
+    "shortDescription": "A magical and ultra-soft Mickey plush toy, bringing Disney joy straight to your kids.",
+    "fullDescription": "Made with premium hypoallergenic fabric, this Mickey Mouse plush is perfect for toddlers. It features durable stitching, vibrant classic colors, and is 100% safe and washable.",
+    "price": "$29.99",
+    "date": "2026-05-10",
+    "category": "Disney Plush",
+    "specifications": "Size: 14 inches | Material: Premium Cotton | Age: 1+ years"
+  },
+  {
+    "id": 2,
+    "title": "Penguin Soft Toy",
+    "image": "/image/penguain-1.webp",
+    "shortDescription": "Charming little arctic penguin buddy designed for warm and cozy bedtime cuddles.",
+    "fullDescription": "This adorable penguin comes with a velvety texture and eco-friendly polyester filling. Its compact size makes it an ideal travel companion for your little adventurer.",
+    "price": "$15.99",
+    "date": "2026-05-18",
+    "category": "Arctic Animals",
+    "specifications": "Size: 10 inches | Material: Eco-Polyester | Age: 0+ years"
+  },
+  {
+    "id": 3,
+    "title": "Pink Bunny Teddy",
+    "image": "/image/pink-bunny-teady.webp",
+    "shortDescription": "Delightful pink rabbit with long floppy ears and a heartwarming, friendly smile.",
+    "fullDescription": "Perfect for Easter or birthday gifts, this pink bunny features extra-long ears and a pastel finish. Crafted to survive endless hugs and playful tea parties.",
+    "price": "$22.50",
+    "date": "2026-06-01",
+    "category": "Plush Rabbits",
+    "specifications": "Size: 16 inches | Material: Super-Soft Velour | Age: 2+ years"
+  },
+  {
+    "id": 4,
+    "title": "Classic Teddy Bear",
+    "image": "/image/teady-bear-1.webp",
+    "shortDescription": "The vintage, timeless companion that fills every room with love and comfort.",
+    "fullDescription": "A traditional brown teddy bear with a premium satin bow. Built with a robust frame yet incredibly huggable, making it a perfect keepsake for generations.",
+    "price": "$26.00",
+    "date": "2026-04-25",
+    "category": "Classic Bears",
+    "specifications": "Size: 12 inches | Material: High-Pile Plush | Age: All Ages"
+  },
+  {
+    "id": 5,
+    "title": "Fluffy Dog Companion",
+    "image": "/image/dog-toy-1.webp",
+    "shortDescription": "A loyal and realistic puppy toy that brings the joy of a pet without the mess.",
+    "fullDescription": "Features detailed puppy eyes, floppy ears, and an ultra-realistic sitting posture. Perfect for teaching toddlers basic pet care and empathy through play.",
+    "price": "$19.99",
+    "date": "2026-06-12",
+    "category": "Pet Toys",
+    "specifications": "Size: 11 inches | Material: Faux Fur Plush | Age: 12+ months"
+  },
+  {
+    "id": 6,
+    "title": "Giant Cuddly Panda",
+    "image": "/image/panda-1.jpg",
+    "shortDescription": "Big, bold, and incredibly soft panda bear ready for giant bear hugs.",
+    "fullDescription": "A striking black-and-white giant panda that doubles up as a comfy room decor cushion. Filled with high-density cloud cotton for long-lasting fluffiness.",
+    "price": "$34.99",
+    "date": "2026-05-30",
+    "category": "Wild Animals",
+    "specifications": "Size: 20 inches | Material: Cloud Cotton | Age: 3+ years"
+  }
+]
