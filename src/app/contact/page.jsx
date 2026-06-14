@@ -1,4 +1,6 @@
+import CareersPage from '@/componets/Pages/Contact/CareersPage';
 import Contactpage from '@/componets/Pages/Contact/Contactpage';
+import PartnersPage from '@/componets/Pages/Contact/PartnersPage';
 import React from 'react';
 
 export const metadata = {
@@ -40,6 +42,8 @@ export const metadata = {
 const Contact = () => {
   return (
     <div>
+      <CareersPage/>
+      <PartnersPage/>
       <Contactpage />
     </div>
   );

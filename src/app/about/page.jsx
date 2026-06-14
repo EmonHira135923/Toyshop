@@ -1,4 +1,5 @@
 import Aboutpage from '@/componets/Pages/About/Aboutpage';
+import StoriesPage from '@/componets/Pages/About/StoriesPage';
 import React from 'react';
 
 export const metadata = {
@@ -36,6 +37,7 @@ const AboutUs = () => {
   return (
     <div>
       <Aboutpage />
+      <StoriesPage/>
     </div>
   );
 };

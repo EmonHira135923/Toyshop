@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/componets/Shared/Header";
 import ThemeProvider from "@/componets/Provider/ThemeProvider";
+import Footer from "@/componets/Shared/Footer";
 
 // Google Font
 const inter = Inter({
@@ -83,6 +84,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <Header />
           {children}
+          <Footer/>
         </ThemeProvider>
       </body>
     </html>
